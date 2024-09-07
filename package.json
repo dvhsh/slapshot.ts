@@ -1,0 +1,37 @@
+{
+  "name": "slapshot.ts",
+  "version": "1.1.7",
+  "description": "Unofficial Slapshot Rebound API wrapper",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "example": "npm run build && node dist/example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvhsh/slapshot.ts.git"
+  },
+  "keywords": [
+    "slapshot",
+    "rebound",
+    "api",
+    "wrapper",
+    "typescript"
+  ],
+  "author": "David @dvhsh (https://dvh.sh)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dvhsh/slapshot.ts/issues"
+  },
+  "homepage": "https://github.com/dvhsh/slapshot.ts",
+  "dependencies": {
+    "axios": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "dotenv": "^16.3.1",
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5.5.4"
+  }
+}
